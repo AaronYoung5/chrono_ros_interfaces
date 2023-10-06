@@ -52,6 +52,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   msg/robot/viper/ViperSteeringCommand.msg
   msg/robot/viper/ViperWheelID.msg
 
+  msg/robot/cobra/CobraSpeedDriver.msg
+
   DEPENDENCIES geometry_msgs std_msgs
 )
 
